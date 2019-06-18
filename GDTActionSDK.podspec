@@ -13,9 +13,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.vendored_frameworks ='GDTActionSDK.framework'
 
-    s.subspec 'Simulator' do |simulator|
-        simulator.source       = { :http => "https://github.com/TBXark/GDTActionSDK/raw/master/GDTActionSDK-simulator-1.0.3.zip" }
-        simulator.vendored_frameworks ='GDTActionSDK-simulator.framework'
-    end
+    #s.subspec 'Simulator' do |simulator|
+    #    simulator.source       = { :http => "https://github.com/TBXark/GDTActionSDK/raw/master/GDTActionSDK-simulator-1.0.3.zip" }
+    #    simulator.vendored_frameworks ='GDTActionSDK-simulator.framework'
+    #end
 
 end
