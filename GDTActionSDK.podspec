@@ -8,14 +8,9 @@ Pod::Spec.new do |s|
   s.homepage     = "https://developers.e.qq.com"
   s.license      = { :type => "Commercial", :text => "©2016 Tecent"}
   s.author       = { "CMBSDK" => "marketing_api@tencent.com" }
-  s.source       = { :http => "https://github.com/TBXark/GDTActionSDK/raw/master/GDTActionSDK-1.0.3.zip" }
+  s.source       = { :http => "https://github.com/TBXark/GDTActionSDK/raw/master/GDTActionSDK-1.0.3-2.zip" }
   s.requires_arc = true  
   s.ios.deployment_target = '8.0'
   s.vendored_frameworks ='GDTActionSDK.framework'
-
-    #s.subspec 'Simulator' do |simulator|
-    #    simulator.source       = { :http => "https://github.com/TBXark/GDTActionSDK/raw/master/GDTActionSDK-simulator-1.0.3.zip" }
-    #    simulator.vendored_frameworks ='GDTActionSDK-simulator.framework'
-    #end
 
 end
